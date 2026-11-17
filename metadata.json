@@ -1,0 +1,5 @@
+{
+  "name": "Matrix Game Engine",
+  "description": "Standalone WebGL/Three.js, OS simulation, CAD, and game engine applet suite imported from hyperloopbeats-netizen/matrix-game-engine.",
+  "requestFramePermissions": []
+}

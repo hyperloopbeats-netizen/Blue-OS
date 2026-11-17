@@ -1,0 +1,28 @@
+{
+  "name": "matrix-game-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone WebGL/Three.js, OS simulation, CAD, and game engine applet suite imported from hyperloopbeats-netizen/matrix-game-engine",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "tsc --noEmit && vite build",
+    "lint": "tsc --noEmit && node --check server.js"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "express": "^4.21.2",
+    "lucide-react": "^1.74.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
